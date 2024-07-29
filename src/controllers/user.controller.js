@@ -1,18 +1,9 @@
-import { query } from "express";
 import connection from "../db/connection.js";
 import jwt from "jsonwebtoken"
 import {config} from "dotenv"
-import nodemailer from "nodemailer"
+import transporter from "../../helpers/mailer.js";
 
 config()
-
-let transporter = nodemailer.createTransport({
-    service: "gmail",
-    auth: {
-        user: process.env.EMAIL,
-        pass: process.env.PASSWORD
-    }
-})
 
 export const getUsers = (req, res) => {
     try {
