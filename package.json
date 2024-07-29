@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/app.js",
-    "dev": "node --watch --no-warnings ./src/app.js",
+    "start": "node ./src/server.js",
+    "dev": "node --watch --no-warnings ./src/server.js",
     "stop-linux": "killall -9 node"
   },
   "keywords": [],
