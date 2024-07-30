@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer"
 
 const transporter = nodemailer.createTransport({
-    service: 'smtp.office365.com',
+    service: 'Outlook',
     port: 587,
     secure: false,
     auth: {
