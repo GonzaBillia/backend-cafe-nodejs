@@ -22,3 +22,9 @@ INSERT INTO user (name, contact_number, email, password, status, role) VALUES (
     'true',
     'admin'
 );
+
+CREATE TABLE category(
+    id int NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    PRIMARY KEY(id)
+);

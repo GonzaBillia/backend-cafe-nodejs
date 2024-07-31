@@ -38,6 +38,15 @@ export const ERROR_CREATE_USER = "Error al crear usuario" ;
 export const ERROR_UPDATE_USER = "Error al actualizar usuario" ;
 export const ERROR_DELETE_USER = "Error al eliminar usuario" ;
 
+//ERROR CATEGORY
+export const ERROR_CATEGORY_NOT_FOUND = "Categoría no encontrada" ;
+export const ERROR_CATEGORY_EXISTS = "La categoría ya existe" ;
+export const ERROR_CATEGORY_NOT_EXISTS = "La categoría no existe" ;
+export const ERROR_INVALID_CATEGORY = "Categoría inválida" ;
+export const ERROR_CREATE_CATEGORY = "Error al crear categoría" ;
+export const ERROR_UPDATE_CATEGORY = "Error al actualizar categoría" ;
+export const ERROR_DELETE_CATEGORY = "Error al eliminar categoría" ;
+
 // ERROR DOCUMENTS
 export const ERROR_GET_DOCUMENT = "Error al obtener documento" ;
 export const ERROR_GET_ALL_DOCUMENT = "Error al obtener documentos" ;

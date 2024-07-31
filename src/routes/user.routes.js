@@ -13,11 +13,11 @@ router.post("/signup", signUp)
 
 router.post("/login", signIn)
 
-router.post("/forgotpassword", forgotPassword)
+router.post("/forgotpassword", authenticate, forgotPassword)
 
-router.put("/update", updateUser)
+router.put("/update", authenticate, updateUser)
 
-router.patch("/updateStatus", authenticate, patchStatus)
+router.patch("/updateStatus", authenticate, checkRole, patchStatus)
 
 router.post("/changePassword", authenticate, changePassword)
 

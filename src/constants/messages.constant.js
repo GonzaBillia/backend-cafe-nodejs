@@ -15,6 +15,10 @@ export const SUCCESS_CHANGE_PASSWORD = "Contraseña cambiada exitosamente" ;
 export const SUCCESS_FORGOT_PASSWORD = "Se ha enviado un correo con su contraseña" ;
 export const SUCCESS_UPDATE_STATUS = "Usuario actualizado exitosamente";
 
+//STATUS 200 CATEGORY
+export const SUCCESS_CATEGORY_CREATED = "Categoría creada exitosamente" ;
+export const SUCCESS_CATEGORY_UPDATED = "Categoría actualizada exitosamente" ;
+
 // STATUS TOKEN
 export const SUCCESS_TOKEN = "Token generado exitosamente" ;
 export const SUCCESS_TOKEN_VALID = "Token valido" ;
