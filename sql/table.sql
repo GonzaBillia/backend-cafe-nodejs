@@ -28,3 +28,17 @@ CREATE TABLE category(
     name VARCHAR(255) NOT NULL,
     PRIMARY KEY(id)
 );
+
+CREATE TABLE product(
+    id int NOT NULL AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    description VARCHAR(255),
+    price int NOT NULL,
+    thumbnail VARCHAR(255),
+    code VARCHAR(255) NOT NULL,
+    stock int NOT NULL,
+    status VARCHAR(20) NOT NULL,
+    category_id int NOT NULL,
+    PRIMARY KEY(id),
+    FOREIGN KEY(category_id) REFERENCES category(id)
+);

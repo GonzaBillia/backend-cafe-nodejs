@@ -47,6 +47,15 @@ export const ERROR_CREATE_CATEGORY = "Error al crear categoría" ;
 export const ERROR_UPDATE_CATEGORY = "Error al actualizar categoría" ;
 export const ERROR_DELETE_CATEGORY = "Error al eliminar categoría" ;
 
+//ERROR PRODUCT
+export const ERROR_PRODUCT_NOT_FOUND = "Producto no encontrado" ;
+export const ERROR_PRODUCT_EXISTS = "El producto ya existe" ;
+export const ERROR_PRODUCT_NOT_EXISTS = "El producto no existe" ;
+export const ERROR_INVALID_PRODUCT = "Producto inválido" ;
+export const ERROR_CREATE_PRODUCT = "Error al crear producto" ;
+export const ERROR_UPDATE_PRODUCT = "Error al actualizar producto" ;
+export const ERROR_DELETE_PRODUCT = "Error al eliminar producto" ;
+
 // ERROR DOCUMENTS
 export const ERROR_GET_DOCUMENT = "Error al obtener documento" ;
 export const ERROR_GET_ALL_DOCUMENT = "Error al obtener documentos" ;

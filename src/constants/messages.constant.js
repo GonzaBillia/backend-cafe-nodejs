@@ -18,6 +18,12 @@ export const SUCCESS_UPDATE_STATUS = "Usuario actualizado exitosamente";
 //STATUS 200 CATEGORY
 export const SUCCESS_CATEGORY_CREATED = "Categoría creada exitosamente" ;
 export const SUCCESS_CATEGORY_UPDATED = "Categoría actualizada exitosamente" ;
+export const SUCCESS_CATEGORY_DELETED = "Categoría eliminada exitosamente" ;
+
+//STATUS 200 PRODUCT
+export const SUCCESS_PRODUCT_CREATED = "Producto creado exitosamente" ;
+export const SUCCESS_PRODUCT_UPDATED = "Producto actualizado exitosamente" ;
+export const SUCCESS_PRODUCT_DELETED = "Producto eliminado exitosamente" ;
 
 // STATUS TOKEN
 export const SUCCESS_TOKEN = "Token generado exitosamente" ;
