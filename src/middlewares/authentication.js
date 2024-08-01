@@ -1,6 +1,6 @@
 import { config } from "dotenv"
 import jwt from "jsonwebtoken"
-import { ERROR_UNAUTHORIZED } from "../constants/errors.constant.js"
+import { ERROR_NOT_PERMISSION, ERROR_UNAUTHORIZED } from "../constants/errors.constant.js"
 
 config()
 

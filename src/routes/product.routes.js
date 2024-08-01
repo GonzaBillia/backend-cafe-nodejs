@@ -1,7 +1,7 @@
 import Router from "express"
 import { authenticate } from "../middlewares/authentication.js"
 import { checkRole } from "../middlewares/checkRole.js"
-import { getProducts, getProduct, postProduct, updateProduct, deleteProduct, getByCategory } from "../controllers/product.controller.js"
+import { getProducts, getProduct, postProduct, updateProduct, deleteProduct, getByCategory, updateStatus } from "../controllers/product.controller.js"
 
 const router = Router()
 
@@ -14,6 +14,8 @@ router.get("/getByCategory/:id", authenticate, getByCategory)
 router.post("/add", authenticate, checkRole, postProduct)
 
 router.put("/update/:id", authenticate, checkRole, updateProduct)
+
+router.patch("/updateStatus/:id", authenticate, checkRole, updateStatus)
 
 router.delete("/delete/:id", authenticate, checkRole, deleteProduct)
 
