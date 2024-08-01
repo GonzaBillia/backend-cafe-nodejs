@@ -62,6 +62,8 @@ export const ERROR_GET_ALL_DOCUMENT = "Error al obtener documentos" ;
 export const ERROR_INSERT_DOCUMENT = "Error al insertar documento" ;
 export const ERROR_UPDATE_DOCUMENT = "Error al actualizar documento" ;
 export const ERROR_DELETE_DOCUMENT = "Error al eliminar documento" ;
+export const ERROR_GENERATE_REPORT = "Error al generar reporte" ;
+export const ERROR_DOCUMENT_NOT_FOUND = "Documento no encontrado" ;
 
 //ERROR TOKEN
 export const ERROR_TOKEN_INVALID = "Token inválido" ;

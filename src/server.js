@@ -1,9 +1,11 @@
 import express from "express"
 import cors from "cors"
+import connection from "./db/connection.js"
+
 import UserRouter from "./routes/user.routes.js"
 import CategoryRouter from "./routes/category.routes.js"
 import ProductRouter from "./routes/product.routes.js"
-import connection from "./db/connection.js"
+import BillRouter from "./routes/bill.routes.js"
 
 const app = express()
 
@@ -16,6 +18,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use("/user", UserRouter)
 app.use("/category", CategoryRouter)
 app.use("/product", ProductRouter)
+app.use("/bill", BillRouter)
 
 connection.connect((err) => {
     if(!err) console.log("Conectado a la base de datos")

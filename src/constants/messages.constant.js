@@ -31,3 +31,11 @@ export const SUCCESS_TOKEN_VALID = "Token valido" ;
 
 // STATUS PASSWORD
 export const SUCCESS_PASSWORD = "Contraseña cambiada exitosamente" ;
+
+// STATUS DOCUMENTS
+export const SUCCESS_GET_DOCUMENT = "Documento obtenido exitosamente" ;
+export const SUCCESS_GET_ALL_DOCUMENT = "Documentos obtenidos exitosamente" ;
+export const SUCCESS_INSERT_DOCUMENT = "Documento insertado exitosamente" ;
+export const SUCCESS_UPDATE_DOCUMENT = "Documento actualizado exitosamente" ;
+export const SUCCESS_DELETE_DOCUMENT = "Documento eliminado exitosamente" ;
+export const SUCCESS_GENERATE_REPORT = "Reporte generado exitosamente" ;
